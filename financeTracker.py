@@ -265,4 +265,4 @@ def main(page: ft.Page) -> None:
 
 
 
-ft.app(main)
+ft.app(target=main, port=8080, view=ft.WEB_BROWSER)
